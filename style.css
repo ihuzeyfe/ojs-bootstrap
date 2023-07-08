@@ -1,0 +1,8 @@
+.yenibir {
+    box-sizing: border-box;
+    margin: 50px;
+    height: 200px;
+    width: 400px;
+    left: 500px;
+    position: relative;
+}

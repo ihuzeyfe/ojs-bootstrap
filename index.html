@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyJS Boostrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <style>
+        [class*="col"] {
+            padding: 1rem;
+            background-color: #198754;
+            border: 2px solid #000;
+            color: #000;
+            text-align: center;
+        }
+        [class*="container"] {
+            padding: 1rem;
+            background-color: #19a7ce;
+            border: 2px solid #000;
+            color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Boostrap Öğreniyorum</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ab voluptatibus at mollitia dolor ipsa reiciendis, ex excepturi esse exercitationem earum repellat est nostrum vero totam dolore. Accusantium minima sequi ducimus porro minus temporibus aperiam earum fuga voluptatum? Enim rerum corrupti omnis temporibus porro incidunt esse, eaque ex eveniet ipsa.
+          </p>
+          <h2>Grid Deneme</h2>
+          <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-9">
+                        Birinci Sütun
+                    </div>
+                    <div class="col-3">
+                        İkinci Sütun
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                İkinci Sütun
+            </div>
+            <div class="col-3">
+                Üçüncü Sütun
+            </div>
+            
+          </div>
+          <h2>responsive</h2>
+          <div class="row">
+          
+
+            <div class="col-12 col-md-6 col-xl-4 order-2 order-md-1 order-xl-1">1-Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit debitis quam fuga dolorem laborum quod. Repudiandae, voluptas, excepturi eaque aperiam ullam dolores minima rerum, doloremque eligendi enim maxime quis.</div>
+            <div class="col-12 col-md-6 col-xl-4 order-1 order-md-2 order-xl-3">
+                <img class="img-fluid" src="/placeholder-4.png" alt="Responsive resim">
+            </div> 
+            <div class="col-12 col-md-6 col-xl-4 offset-md-3 offset-xl-0 order-3 order-xl-2" >
+                <p>
+                    2-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptates cupiditate molestias velit corporis ducimus porro non tempore odio eos.
+                </p>
+            </div>
+          </div>
+    </div>
+    
+
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
